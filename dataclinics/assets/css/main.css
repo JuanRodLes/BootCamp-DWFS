@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, Helvetica, Sans-serif;
+}
+.Navbar {
+    background-color: #ffd900;
+}
+.ListaNavbar {
+    list-style-type: none;
+}
+.ListaNavbar  li {
+    display: inline;
+}
+
+.ListaNavbar li button, #boton{
+    width: 160px;
+    background: #747474;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+}
+
+#boton{
+    width: 250px;
+    border-radius: 15px;
+    margin: 15px 5px 15px;
+}
