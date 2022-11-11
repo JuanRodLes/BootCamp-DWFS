@@ -10,6 +10,14 @@
 .ListaNavbar {
     list-style-type: none;
 }
+
+.Navbar {
+background-color: #236db3;
+display: flex;
+justify-content: space-between;
+padding: 20px 10px;
+}
+
 .ListaNavbar  li {
     display: inline;
 }
@@ -23,10 +31,40 @@
     white-space: nowrap;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 #boton{
     width: 250px;
     border-radius: 15px;
-    margin: 15px 5px 15px;
+    margin: 10px 5px;
+}
+
+.ImgSlider {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.Texto1 {
+    text-align:center;
+    margin: 2% 100px;
+}
+
+.Nosotros {
+    display: grid;
+    grid-template-columns: 320px 50%;
+    grid-template-rows: 300px 200px;
+}
+
+.ImgNosotros {
+    padding: 0 20px;
+    grid-column: 1/2;
+}
+
+.TitleNosotros {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.TextNosotros {
+    grid-row: 2/3;
 }
